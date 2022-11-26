@@ -3,7 +3,6 @@ import 'package:firebase_auth/firebase_auth.dart'; // Essa biblioteca faz o logi
 class LoginComFirebase {
   final _firebaseInstance = FirebaseAuth.instance;
 
-  @override
   Future<void> logar(String email, String senha) async {
     try {
       final authentication = await _firebaseInstance.signInWithEmailAndPassword(

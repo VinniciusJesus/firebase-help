@@ -1,5 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart'; // Essa biblioteca salva os dados no banco de dados do firebase
+import 'package:firebase_auth/firebase_auth.dart'; // Essa biblioteca faz o login e cadastro
 
 class FirebaseCadastrar {
   final _firebaseInstance = FirebaseAuth.instance;
